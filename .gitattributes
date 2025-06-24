@@ -11,3 +11,4 @@ dbt_packages/** linguist-vendored
 tests/** linguist-vendored
 __pycache__/** linguist-vendored
 *.html linguist-vendored
+
