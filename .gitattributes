@@ -1,3 +1,10 @@
 *.sql linguist-language=SQL
 *.yml linguist-language=YAML
-*.html linguist-vendored
+*.yaml linguist-language=YAML
+
+# Exclude the following from language stats
+target/** linguist-vendored
+logs/** linguist-vendored
+venv/** linguist-vendored
+dbt_packages/** linguist-vendored
+tests/** linguist-vendored
