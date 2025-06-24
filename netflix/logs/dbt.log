@@ -15725,3 +15725,23 @@ with tables as (
 [0m10:50:33.174635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001699B10F410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001699B10EFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001699B10F490>]}
 [0m10:50:33.174635 [debug] [MainThread]: Flushing usage events
 [0m10:50:34.119525 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:01:35.035221 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7F607610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7F606BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7F606D10>]}
+
+
+============================== 11:01:35.040266 | 55265921-6e0e-44cf-933a-5c41fcd19258 ==============================
+[0m11:01:35.040266 [info ] [MainThread]: Running with dbt=1.9.8
+[0m11:01:35.041272 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'c:\\Data_Engineering\\Netflix_dbt_Trasnformation\\netflix\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\shiva\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:01:35.202177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '55265921-6e0e-44cf-933a-5c41fcd19258', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7F661250>]}
+[0m11:01:35.282986 [debug] [MainThread]: Set downloads directory='C:\Users\shiva\AppData\Local\Temp\dbt-downloads-ucape5m7'
+[0m11:01:35.283983 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m11:01:35.356933 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m11:01:35.360060 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m11:01:35.410808 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m11:01:35.426757 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m11:01:36.062721 [info ] [MainThread]: Installed from version 1.3.0
+[0m11:01:36.062721 [info ] [MainThread]: Up to date!
+[0m11:01:36.062721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '55265921-6e0e-44cf-933a-5c41fcd19258', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7F677B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7E811090>]}
+[0m11:01:36.072222 [debug] [MainThread]: Command `cli deps` succeeded at 11:01:36.070218 after 1.14 seconds
+[0m11:01:36.072222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7F5FE610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C78EEF010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020C7F5F6050>]}
+[0m11:01:36.072222 [debug] [MainThread]: Flushing usage events
+[0m11:01:36.952040 [debug] [MainThread]: An error was encountered while trying to flush usage events
